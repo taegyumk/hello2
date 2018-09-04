@@ -771,8 +771,11 @@ h1 {
     var GU_comment_box_pos = "top";
     var GU_comment_box_mode = "noinline";
     var GU_comment_box_server = "minichat.first-jump.com";
+    document.write('<div class="GU-COMMENT-API" lang="'+GU_comment_box_id+' '+GU_comment_box_mode+' '+GU_comment_box_pos+'"></div>\
+    <style> @import url("http://'+GU_comment_box_server+'/i/comm/'+GU_comment_box_theme+'.css"); </style>\
+    <script src="http://'+GU_comment_box_server+'/i/comm/script.js"></script>');
   </script>
-  <script src="http://minichat.first-jump.com/i/comm/comment_box_code.js"></script>
+  <!--<script src="http://minichat.first-jump.com/i/comm/comment_box_code.js"></script>-->
 </div>
 
 <div id="Paris" class="tabcontent">
